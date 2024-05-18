@@ -1,0 +1,364 @@
+<?xml version="1.0" ?>
+<robot name="assembly_simple" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find assembly_simple_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find assembly_simple_description)/urdf/assembly_simple.trans" />
+<xacro:include filename="$(find assembly_simple_description)/urdf/assembly_simple.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-4.01415715045929e-06 -0.0005363751487602584 0.01904486350731033" rpy="0 0 0"/>
+    <mass value="0.06711365970673608"/>
+    <inertia ixx="6.4e-05" iyy="4.2e-05" izz="8.8e-05" ixy="-0.0" iyz="1e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_hip_L_simple_v2_v1_1">
+  <inertial>
+    <origin xyz="0.0026471348660554762 0.008154605102083302 0.006021408043386009" rpy="0 0 0"/>
+    <mass value="0.010651772434958885"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.026925 -0.05165 -0.02138" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.026925 -0.05165 -0.02138" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_hip_L_simple_v2_Mirror__Mirror__v1_1">
+  <inertial>
+    <origin xyz="-0.0026471348660554762 -0.008154605102083302 0.006021408043386019" rpy="0 0 0"/>
+    <mass value="0.010651772434958885"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.026925 0.05165 -0.02138" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.026925 0.05165 -0.02138" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_hip_L_simple_v2_Mirror__v1_1">
+  <inertial>
+    <origin xyz="-0.002647134961283666 0.00815460508924732 0.006021408742554624" rpy="0 0 0"/>
+    <mass value="0.010651772367412021"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.026925 -0.05165 -0.02138" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.026925 -0.05165 -0.02138" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_hip_L_simple_v2_Mirror___1__v1_1">
+  <inertial>
+    <origin xyz="0.002647134961283666 -0.008154605089247341 0.006021408742554621" rpy="0 0 0"/>
+    <mass value="0.010651772367412021"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.026925 0.05165 -0.02138" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.026925 0.05165 -0.02138" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_Component6_v1_1">
+  <inertial>
+    <origin xyz="-0.0140979448138756 -0.031213531473714 8.43387692355535e-05" rpy="0 0 0"/>
+    <mass value="0.012949528379146385"/>
+    <inertia ixx="6e-06" iyy="1e-06" izz="7e-06" ixy="-1e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.039485 -0.06105 -0.022478" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.039485 -0.06105 -0.022478" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_Component6_Mirror__v1_1">
+  <inertial>
+    <origin xyz="-0.014097947947670122 0.031213496015972925 8.433709991044133e-05" rpy="0 0 0"/>
+    <mass value="0.012949520700092825"/>
+    <inertia ixx="6e-06" iyy="1e-06" izz="7e-06" ixy="1e-06" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.039485 0.06105 -0.022478" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.039485 0.06105 -0.022478" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_Component6_Mirror__Mirror__v1_1">
+  <inertial>
+    <origin xyz="0.014097944813875614 0.031213531473714008 8.433876923555697e-05" rpy="0 0 0"/>
+    <mass value="0.012949528379146385"/>
+    <inertia ixx="6e-06" iyy="1e-06" izz="7e-06" ixy="-1e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.039585 0.06105 -0.022478" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.039585 0.06105 -0.022478" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_Component6_Mirror___1__v1_1">
+  <inertial>
+    <origin xyz="0.014097947947670164 -0.031213496015972755 8.433709991042052e-05" rpy="0 0 0"/>
+    <mass value="0.012949520700092825"/>
+    <inertia ixx="6e-06" iyy="1e-06" izz="7e-06" ixy="1e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.039585 -0.06105 -0.022478" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.039585 -0.06105 -0.022478" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_lowerleg_left_v2_v1_1">
+  <inertial>
+    <origin xyz="0.0026345540282930735 0.016520008906610893 0.0005581709036688552" rpy="0 0 0"/>
+    <mass value="0.0026700130710144935"/>
+    <inertia ixx="1e-06" iyy="0.0" izz="1e-06" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.045235 -0.01295 -0.022628" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.045235 -0.01295 -0.022628" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_lowerleg_left_v2_Mirror__v1_1">
+  <inertial>
+    <origin xyz="-0.0026345540282929486 0.016520008906611126 0.0005581709036687962" rpy="0 0 0"/>
+    <mass value="0.0026700130710144944"/>
+    <inertia ixx="1e-06" iyy="0.0" izz="1e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.045335 -0.01295 -0.022628" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.045335 -0.01295 -0.022628" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_lowerleg_left_v2_Mirror___1__v1_1">
+  <inertial>
+    <origin xyz="0.002634554028293025 -0.016520008906610838 0.0005581709036688275" rpy="0 0 0"/>
+    <mass value="0.0026700130710144944"/>
+    <inertia ixx="1e-06" iyy="0.0" izz="1e-06" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.045235 0.01295 -0.022628" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.045235 0.01295 -0.022628" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="assembly_simplyv3_backup_lowerleg_left_v2_Mirror__Mirror__v1_1">
+  <inertial>
+    <origin xyz="-0.0026345540282930457 -0.01652000890661092 0.0005581709036688448" rpy="0 0 0"/>
+    <mass value="0.0026700130710144935"/>
+    <inertia ixx="1e-06" iyy="0.0" izz="1e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.045335 0.01295 -0.022628" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.045335 0.01295 -0.022628" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 1" type="continuous">
+  <origin xyz="-0.026925 0.05165 0.02138" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="assembly_simplyv3_backup_hip_L_simple_v2_v1_1"/>
+  <axis xyz="-0.0 1.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 2" type="continuous">
+  <origin xyz="0.026925 -0.05165 0.02138" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="assembly_simplyv3_backup_hip_L_simple_v2_Mirror__Mirror__v1_1"/>
+  <axis xyz="0.0 -1.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 3" type="continuous">
+  <origin xyz="0.026925 0.05165 0.02138" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="assembly_simplyv3_backup_hip_L_simple_v2_Mirror__v1_1"/>
+  <axis xyz="-0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 4" type="continuous">
+  <origin xyz="-0.026925 -0.05165 0.02138" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="assembly_simplyv3_backup_hip_L_simple_v2_Mirror___1__v1_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Revolute 5" type="continuous">
+  <origin xyz="-0.01256 0.0094 0.001098" rpy="0 0 0"/>
+  <parent link="assembly_simplyv3_backup_hip_L_simple_v2_v1_1"/>
+  <child link="assembly_simplyv3_backup_Component6_v1_1"/>
+  <axis xyz="1.0 -0.0 0.0"/>
+</joint>
+
+<joint name="Revolute 6" type="continuous">
+  <origin xyz="-0.01256 -0.0094 0.001098" rpy="0 0 0"/>
+  <parent link="assembly_simplyv3_backup_hip_L_simple_v2_Mirror___1__v1_1"/>
+  <child link="assembly_simplyv3_backup_Component6_Mirror__v1_1"/>
+  <axis xyz="-1.0 -0.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 7" type="continuous">
+  <origin xyz="0.01266 -0.0094 0.001098" rpy="0 0 0"/>
+  <parent link="assembly_simplyv3_backup_hip_L_simple_v2_Mirror__Mirror__v1_1"/>
+  <child link="assembly_simplyv3_backup_Component6_Mirror__Mirror__v1_1"/>
+  <axis xyz="1.0 -0.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 8" type="continuous">
+  <origin xyz="0.01266 0.0094 0.001098" rpy="0 0 0"/>
+  <parent link="assembly_simplyv3_backup_hip_L_simple_v2_Mirror__v1_1"/>
+  <child link="assembly_simplyv3_backup_Component6_Mirror___1__v1_1"/>
+  <axis xyz="-1.0 -0.0 0.0"/>
+</joint>
+
+<joint name="Revolute 9" type="continuous">
+  <origin xyz="-0.00575 -0.0481 0.00015" rpy="0 0 0"/>
+  <parent link="assembly_simplyv3_backup_Component6_v1_1"/>
+  <child link="assembly_simplyv3_backup_lowerleg_left_v2_v1_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Revolute 10" type="continuous">
+  <origin xyz="0.00575 -0.0481 0.00015" rpy="0 0 0"/>
+  <parent link="assembly_simplyv3_backup_Component6_Mirror___1__v1_1"/>
+  <child link="assembly_simplyv3_backup_lowerleg_left_v2_Mirror__v1_1"/>
+  <axis xyz="1.0 -0.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 11" type="continuous">
+  <origin xyz="-0.00575 0.0481 0.00015" rpy="0 0 0"/>
+  <parent link="assembly_simplyv3_backup_Component6_Mirror__v1_1"/>
+  <child link="assembly_simplyv3_backup_lowerleg_left_v2_Mirror___1__v1_1"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 12" type="continuous">
+  <origin xyz="0.00575 0.0481 0.00015" rpy="0 0 0"/>
+  <parent link="assembly_simplyv3_backup_Component6_Mirror__Mirror__v1_1"/>
+  <child link="assembly_simplyv3_backup_lowerleg_left_v2_Mirror__Mirror__v1_1"/>
+  <axis xyz="-1.0 -0.0 0.0"/>
+</joint>
+
+</robot>
