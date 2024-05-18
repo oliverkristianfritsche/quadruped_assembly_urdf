@@ -218,14 +218,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/base_link.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/base_link.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -238,14 +238,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.026925 -0.05165 -0.02138"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.026925 -0.05165 -0.02138"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -258,14 +258,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.026925 0.05165 -0.02138"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.026925 0.05165 -0.02138"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -278,14 +278,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.026925 -0.05165 -0.02138"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.026925 -0.05165 -0.02138"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -298,14 +298,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.026925 0.05165 -0.02138"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror___1__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.026925 0.05165 -0.02138"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_hip_L_simple_v2_Mirror___1__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -318,14 +318,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.039485 -0.06105 -0.022478"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.039485 -0.06105 -0.022478"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -338,14 +338,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.039485 0.06105 -0.022478"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.039485 0.06105 -0.022478"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -358,14 +358,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.039585 0.06105 -0.022478"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.039585 0.06105 -0.022478"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror__Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -378,14 +378,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.039585 -0.06105 -0.022478"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror___1__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.039585 -0.06105 -0.022478"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_Component6_Mirror___1__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -398,14 +398,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.045235 -0.01295 -0.022628"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.045235 -0.01295 -0.022628"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -418,14 +418,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.045335 -0.01295 -0.022628"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.045335 -0.01295 -0.022628"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -438,14 +438,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0.045235 0.01295 -0.022628"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror___1__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0.045235 0.01295 -0.022628"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror___1__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror___1__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -458,14 +458,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.045335 0.01295 -0.022628"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="silver"/>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="-0.045335 0.01295 -0.022628"/>
       <geometry>
-        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__Mirror__v1_1.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://assembly_simple_description/meshes/assembly_simplyv3_backup_lowerleg_left_v2_Mirror__Mirror__v1_1.obj" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
